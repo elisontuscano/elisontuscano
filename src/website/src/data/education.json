@@ -1,0 +1,29 @@
+[
+  {
+    "id": "campbellsville",
+    "degree": "Master's",
+    "field": "Artificial Intelligence / Data Science",
+    "institution": "Campbellsville University",
+    "location": "",
+    "startDate": "Jul 2024",
+    "endDate": "Mar 2026"
+  },
+  {
+    "id": "uta",
+    "degree": "Master's",
+    "field": "Computer Science",
+    "institution": "University of Texas at Arlington",
+    "location": "Texas",
+    "startDate": "Aug 2019",
+    "endDate": "May 2021"
+  },
+  {
+    "id": "mumbai",
+    "degree": "Bachelor's",
+    "field": "Computer Science",
+    "institution": "University of Mumbai",
+    "location": "Mumbai",
+    "startDate": "Jun 2015",
+    "endDate": "May 2019"
+  }
+]

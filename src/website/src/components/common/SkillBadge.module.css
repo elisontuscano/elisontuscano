@@ -1,0 +1,17 @@
+.badge {
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  background: var(--skill-bg);
+  color: var(--text-secondary);
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  cursor: default;
+}
+
+.badge:hover {
+  background: var(--accent);
+  color: #ffffff;
+  transform: translateY(-2px);
+}

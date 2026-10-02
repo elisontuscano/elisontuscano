@@ -1,0 +1,12 @@
+[
+  {
+    "id": "portfolio",
+    "name": "Personal Portfolio",
+    "description": "This portfolio website — built with React, TypeScript, and Vite. Deployed on GitHub Pages with dark mode, responsive design, and component-driven architecture.",
+    "techStack": ["React", "TypeScript", "Vite", "CSS Modules"],
+    "repoUrl": "https://github.com/elisontuscano/elisontuscano",
+    "liveUrl": "https://elisontuscano.github.io",
+    "featured": true,
+    "date": "2026-10"
+  }
+]

@@ -1,0 +1,35 @@
+.toggle {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.toggle:hover {
+  background-color: var(--skill-bg);
+}
+
+.icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: rotate(-90deg);
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.icon.visible {
+  opacity: 1;
+  transform: rotate(0deg);
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "amazon",
+    "company": "Amazon",
+    "role": "Software Development Engineer II",
+    "location": "Sunnyvale, CA",
+    "startDate": "Nov 2024",
+    "endDate": "Present",
+    "techStack": ["React", "TypeScript", "Python", "AWS", "Redshift", "QuickSight", "Grafana", "CloudWatch", "Bedrock", "MCP"],
+    "bullets": [
+      "Built a scalable, cloud-based High-Performance Computing (HPC) platform to execute heavy compute workloads like AI training, chip design and complex simulations, processing over 10 million jobs annually",
+      "Developed LLM-powered troubleshooting and admin agents for HPC and DCV diagnostics and remediation, reducing SLA incidents by 20%",
+      "Designed an MCP (Model Context Protocol) server framework exposing platform modules and REST APIs to LLM agents over local (SSH) and remote (Bedrock AgentCore) servers",
+      "Implemented a production RAG application on AWS Bedrock that lets users query HPC job and simulation data in natural language",
+      "Architected a KPI analytics pipeline using AWS Glue, Redshift, and QuickSight, saving $100K+ in cost",
+      "Engineered a filesystem monitoring service, reducing costs by $120K per year",
+      "Extended on-demand DCV virtual desktop service with idle-detection, saving $50K+ annually",
+      "Engineered multi-region support for the HPC platform, reducing compute costs by 30%",
+      "Led end-to-end release management lifecycle ensuring zero-downtime upgrades across production clusters"
+    ]
+  },
+  {
+    "id": "visa",
+    "company": "Visa Inc.",
+    "role": "Senior Site Reliability Engineer (DevOps)",
+    "location": "",
+    "startDate": "Jun 2022",
+    "endDate": "Aug 2024",
+    "techStack": ["Docker", "Red Hat", "OpenShift", "Kubernetes", "Linux", "Jenkins", "Ansible", "Splunk", "Grafana", "Prometheus"],
+    "bullets": [
+      "Automated vulnerability findings reporting, saving 8 hours of manual work weekly",
+      "Migrated client-facing environment (4000 TPS) from VMs to Docker containers with Kubernetes",
+      "Created dynamic monitoring dashboards and alerts with Splunk, Prometheus, and Grafana, reducing SLA incidents by 30%",
+      "Designed a CI/CD pipeline on AWS using CodePipeline, CodeDeploy, S3, CodeArtifact, CloudFormation, and Terraform for 10+ applications",
+      "Led root-cause analysis on production incidents and built Python/Bash automation to remediate recurring failures"
+    ]
+  },
+  {
+    "id": "tcs",
+    "company": "Tata Consultancy Services",
+    "role": "Software Engineer, Data Platform",
+    "location": "",
+    "startDate": "Sep 2021",
+    "endDate": "May 2022",
+    "techStack": ["Google Cloud", "BigQuery", "Data Studio", "Python", "Scala", "Apache Spark", "HDFS", "Kafka", "Airflow"],
+    "bullets": [
+      "Facilitated migration of product data from Oracle to Google Cloud ensuring 99.99% availability",
+      "Designed and streamlined a data pipeline for ETL, data warehousing, and application integration",
+      "Implemented Kafka for real-time data streaming and Spark MLlib for market analysis"
+    ]
+  },
+  {
+    "id": "codescience",
+    "company": "Code Science Technologies",
+    "role": "Full Stack Software Developer",
+    "location": "",
+    "startDate": "Jun 2018",
+    "endDate": "Jun 2019",
+    "techStack": ["AWS", "Python", "Flask", "PHP", "Laravel", "React", "Node.js", "MySQL", "DynamoDB", "JavaScript"],
+    "bullets": [
+      "Architected scalable AWS solutions resulting in 20% decrease in infrastructure cost",
+      "Optimized database performance with AWS RDS and DynamoDB, achieving 25% improvement in query response time"
+    ]
+  }
+]

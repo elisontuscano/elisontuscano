@@ -1,0 +1,73 @@
+.paperContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.main {
+  flex: 1;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.title a {
+  color: var(--text-primary);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: color 0.2s ease;
+}
+
+.title a:hover {
+  color: var(--accent);
+}
+
+.linkIcon {
+  opacity: 0.5;
+}
+
+.authors {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.4rem;
+}
+
+.summary {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.15rem 0.45rem;
+  background: var(--skill-bg);
+  color: var(--text-muted);
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.notesLink {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+.notesLink:hover {
+  color: var(--accent);
+}
