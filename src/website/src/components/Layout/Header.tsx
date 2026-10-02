@@ -10,6 +10,11 @@ const navLinks = [
   { path: '/papershelf', label: 'Papershelf' },
 ];
 
+import profileData from '../../data/profile.json';
+import type { Profile } from '../../types';
+
+const profile = profileData as Profile;
+
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
@@ -21,8 +26,8 @@ export function Header() {
     <header className={styles.header}>
       <div className={`container ${styles.headerInner}`}>
         <Link to="/" className={styles.logo} onClick={closeMenu}>
-          <span className={styles.firstName}>Elison</span>{' '}
-          <span className={styles.lastName}>Tuscano</span>
+          <span className={styles.firstName}>{profile.firstName}</span>{' '}
+          <span className={styles.lastName}>{profile.lastName}</span>
         </Link>
 
         <nav className={`${styles.nav} ${menuOpen ? styles.navOpen : ''}`}>

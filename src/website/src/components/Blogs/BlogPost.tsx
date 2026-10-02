@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeHighlight from 'rehype-highlight';
+import 'highlight.js/styles/github-dark.css'; // Added syntax highlighting theme
 import { FiArrowLeft } from 'react-icons/fi';
 import styles from './BlogPost.module.css';
 import type { BlogMeta } from '../../types';
@@ -16,22 +17,33 @@ export function BlogPost({ meta }: BlogPostProps) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    const abortController = new AbortController();
+    
     const loadPost = async () => {
       try {
-        const response = await fetch(`/blog-content/${meta.slug}.md`);
+        setLoading(true);
+        const response = await fetch(`/blog-content/${meta.slug}.md`, {
+          signal: abortController.signal
+        });
         if (!response.ok) throw new Error('Post not found');
         const text = await response.text();
-        // Remove YAML frontmatter
         const contentWithoutFrontmatter = text.replace(/^---[\s\S]*?---\n*/m, '');
         setContent(contentWithoutFrontmatter);
-      } catch {
+      } catch (error: any) {
+        if (error.name === 'AbortError') return;
         setContent('# Post not found\n\nSorry, this blog post could not be loaded.');
       } finally {
-        setLoading(false);
+        if (!abortController.signal.aborted) {
+          setLoading(false);
+        }
       }
     };
 
     loadPost();
+    
+    return () => {
+      abortController.abort();
+    };
   }, [meta.slug]);
 
   if (loading) {

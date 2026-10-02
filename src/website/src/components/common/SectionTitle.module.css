@@ -19,6 +19,6 @@
   transition: transform 0.8s ease;
 }
 
-.wrapper.visible .line {
+:global(.visible) .line {
   transform: scaleX(1);
 }
