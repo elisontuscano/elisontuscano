@@ -1,12 +1,47 @@
 [
   {
-    "id": "portfolio",
-    "name": "Personal Portfolio",
-    "description": "This portfolio website — built with React, TypeScript, and Vite. Deployed on GitHub Pages with dark mode, responsive design, and component-driven architecture.",
-    "techStack": ["React", "TypeScript", "Vite", "CSS Modules"],
-    "repoUrl": "https://github.com/elisontuscano/elisontuscano",
-    "liveUrl": "https://elisontuscano.github.io",
+    "id": "fetchrewards-health-monitor",
+    "name": "Health Monitor Application",
+    "description": "A server application that continuously monitors the availability of given URLs every 15 seconds.",
+    "techStack": ["Python", "Networking"],
+    "repoUrl": "https://github.com/elisontuscano/fetchrewards_Health-Monitor",
     "featured": true,
-    "date": "2026-10"
+    "date": "2023"
+  },
+  {
+    "id": "distributed-directory-management",
+    "name": "Distributed System Client-Server Directory Management",
+    "description": "A distributed client-server application built in Python for managing directories across multiple nodes.",
+    "techStack": ["Python", "Sockets", "Distributed Systems"],
+    "repoUrl": "https://github.com/elisontuscano/Distributed-System-Client-Server-Directoy-Management",
+    "featured": true,
+    "date": "2023"
+  },
+  {
+    "id": "mern-social-media",
+    "name": "MERN Stack Social Media",
+    "description": "A full-stack social media application built using the MERN stack.",
+    "techStack": ["MongoDB", "Express", "React", "Node.js"],
+    "repoUrl": "https://github.com/elisontuscano/MERN-social-media",
+    "featured": true,
+    "date": "2023"
+  },
+  {
+    "id": "study-buddy-backend",
+    "name": "Study Buddy Backend",
+    "description": "REST API backend built in Python for the Study Buddy application.",
+    "techStack": ["Python", "REST API", "Backend"],
+    "repoUrl": "https://github.com/elisontuscano/study-buddy-backend",
+    "featured": false,
+    "date": "2024"
+  },
+  {
+    "id": "game-review-predictor",
+    "name": "Game Review Predictor",
+    "description": "A machine learning project built with Jupyter Notebook to predict and analyze game reviews.",
+    "techStack": ["Python", "Machine Learning", "Jupyter Notebook"],
+    "repoUrl": "https://github.com/elisontuscano/Game-Review-Predictor",
+    "featured": false,
+    "date": "2023"
   }
 ]
