@@ -1,0 +1,1 @@
+var e=[{slug:`my-first-post`,title:`My First Blog Post`,date:`2026-10-01`,summary:`An introduction to my blog.`,tags:[`general`],readingTime:`3 min read`}];export{e as t};

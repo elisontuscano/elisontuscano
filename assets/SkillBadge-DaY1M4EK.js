@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-D3jfb0Ew.js";var t={badge:`_badge_1c6ig_1`},n=e();function r({skill:e}){return(0,n.jsx)(`span`,{className:t.badge,children:e})}export{r as t};
