@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Elison Tuscano — Software Engineer</title>
+    <meta name="title" content="Elison Tuscano — Software Engineer" />
+    <meta name="description" content="Senior Software Engineer. AI & Cloud Platform Engineering, Full-Stack Development, SRE. Currently at Amazon." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://elisontuscano.github.io/" />
+    <meta property="og:title" content="Elison Tuscano — Software Engineer" />
+    <meta property="og:description" content="Senior Software Engineer at Amazon. AI & Cloud Platform Engineering, Full-Stack Development, SRE." />
+    <meta property="og:image" content="https://elisontuscano.github.io/og-image.png" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://elisontuscano.github.io/" />
+    <meta property="twitter:title" content="Elison Tuscano — Software Engineer" />
+    <meta property="twitter:description" content="Senior Software Engineer at Amazon. AI, Cloud, Full-Stack, SRE." />
+    <meta property="twitter:image" content="https://elisontuscano.github.io/og-image.png" />
+
+    <!-- Prevent Theme Flash -->
+    <script>
+      (function() {
+        try {
+          var stored = localStorage.getItem('theme');
+          if (stored === 'dark' || stored === 'light') {
+            document.documentElement.setAttribute('data-theme', stored);
+          } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+          } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Elison Tuscano",
+        "jobTitle": "Software Development Engineer II",
+        "worksFor": { "@type": "Organization", "name": "Amazon" },
+        "url": "https://elisontuscano.github.io",
+        "sameAs": [
+          "https://github.com/elisontuscano",
+          "https://linkedin.com/in/elisontuscano"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

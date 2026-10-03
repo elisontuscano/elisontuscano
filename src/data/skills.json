@@ -1,0 +1,26 @@
+[
+  {
+    "category": "AI & GenAI",
+    "skills": ["AWS Bedrock", "Bedrock AgentCore", "RAG", "LLMs", "LLM Agents", "MCP", "Embeddings", "Vector Search", "Prompt Engineering"]
+  },
+  {
+    "category": "Languages & Frameworks",
+    "skills": ["Python", "Java", "React", "JavaScript", "TypeScript", "Node.js", "Flask", "Shell", "SQL", "NoSQL"]
+  },
+  {
+    "category": "Databases",
+    "skills": ["PostgreSQL", "Redis", "MongoDB", "DynamoDB", "AWS RDS"]
+  },
+  {
+    "category": "Cloud Platforms",
+    "skills": ["AWS", "EC2", "Lambda", "S3", "Redshift", "Glue", "CodePipeline", "Google Cloud", "BigQuery", "Microsoft Azure"]
+  },
+  {
+    "category": "DevOps",
+    "skills": ["Docker", "Kubernetes", "Splunk", "Grafana", "Prometheus", "Jenkins", "Ansible", "Linux", "Terraform", "Git"]
+  },
+  {
+    "category": "Big Data & Analytics",
+    "skills": ["Tableau", "TensorFlow", "PyTorch", "Apache Spark", "Hadoop", "Kafka", "Airflow"]
+  }
+]

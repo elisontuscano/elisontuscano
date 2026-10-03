@@ -1,0 +1,29 @@
+[
+  {
+    "id": "distributed-directory-management",
+    "name": "Distributed System Client-Server Directory Management",
+    "description": "A distributed client-server application built in Python for managing directories across multiple nodes.",
+    "techStack": ["Python", "Sockets", "Distributed Systems"],
+    "repoUrl": "https://github.com/elisontuscano/Distributed-System-Client-Server-Directoy-Management",
+    "featured": true,
+    "date": "2023"
+  },
+  {
+    "id": "tv-series-recommendation-system",
+    "name": "TV Series Recommendation System",
+    "description": "A recommendation system built using MATLAB to suggest TV series based on user preferences and viewing history.",
+    "techStack": ["MATLAB", "Machine Learning", "Recommendation Systems"],
+    "repoUrl": "https://github.com/elisontuscano/Tv_series_recommendation_system",
+    "featured": true,
+    "date": "2023"
+  },
+  {
+    "id": "sentiment-analysis-movie-review",
+    "name": "Sentiment Analysis with Movie Reviews",
+    "description": "A natural language processing project that performs sentiment analysis on movie reviews to classify them as positive or negative.",
+    "techStack": ["Python", "NLP", "Machine Learning"],
+    "repoUrl": "https://github.com/elisontuscano/Sentiment-analysis-with-movie-review",
+    "featured": true,
+    "date": "2023"
+  }
+]

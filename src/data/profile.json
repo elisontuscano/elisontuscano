@@ -1,0 +1,20 @@
+{
+  "firstName": "Elison",
+  "lastName": "Tuscano",
+  "titles": [
+    "Senior Software Engineer",
+    "AI & Cloud Platform Engineer",
+    "Full-Stack Developer",
+    "Systems & SRE"
+  ],
+  "location": "Sunnyvale, CA",
+  "avatarUrl": "/images/avatar.jpg",
+  "bio": "Senior Software Engineer with 5+ years of experience across full-stack development, distributed systems, cloud platform engineering, and SRE. Skilled in Python, React, and TypeScript, with experience designing scalable systems on AWS, automating infrastructure with Terraform and Kubernetes, and optimizing CI/CD pipelines. Engineered a production-grade generative AI solution on an HPC platform, including a Retrieval-Augmented Generation (RAG) pipeline on AWS Bedrock and LLM-powered troubleshooting agents. Proven track record of improving system reliability and reducing costs by $270K+.",
+  "socialLinks": [
+    { "platform": "email", "url": "mailto:elisontuscano@gmail.com", "label": "elisontuscano@gmail.com", "icon": "FiMail" },
+    { "platform": "phone", "url": "tel:+16822464666", "label": "+1 (682)-246-4666", "icon": "FiPhone" },
+    { "platform": "linkedin", "url": "https://linkedin.com/in/elisontuscano", "label": "LinkedIn", "icon": "FiLinkedin" },
+    { "platform": "github", "url": "https://github.com/elisontuscano", "label": "GitHub", "icon": "FiGithub" }
+  ],
+  "resumeUrl": "/Elison_Tuscano_resume.pdf"
+}
